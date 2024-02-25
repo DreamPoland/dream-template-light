@@ -1,6 +1,6 @@
 Working with template-light:
 -----
-Template-Light is a project that contains only the required platform libraries.<br>
+Template-Light is a project that contains only the required platform libraries. (<b>41KB</b>) <br>
 To see the template with all supported libraries, take a look at [Dream-Template](https://github.com/DreamPoland/dream-template).
 
 ------
