@@ -10,18 +10,18 @@ dependencies {
     compileOnly("org.spigotmc:spigot-api:1.8.8-R0.1-SNAPSHOT")
 
     // -- dream-platform --
-    implementation("cc.dreamcode.platform:core:1.9.15")
-    implementation("cc.dreamcode.platform:bukkit:1.9.15")
+    implementation("cc.dreamcode.platform:core:1.9.16")
+    implementation("cc.dreamcode.platform:bukkit:1.9.16")
 
     // -- dream-utilities --
-    implementation("cc.dreamcode:utilities:1.2.24")
-    implementation("cc.dreamcode:utilities-bukkit:1.2.24")
+    implementation("cc.dreamcode:utilities:1.2.25")
+    implementation("cc.dreamcode:utilities-bukkit:1.2.25")
 
     // -- injector --
     implementation("eu.okaeri:okaeri-injector:2.1.0")
 
     // -- placeholders --
-    implementation("eu.okaeri:okaeri-placeholders-core:4.0.7")
+    implementation("eu.okaeri:okaeri-placeholders-core:5.0.1")
 }
 
 tasks.withType<ShadowJar> {
