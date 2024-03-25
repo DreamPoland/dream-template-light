@@ -10,12 +10,12 @@ dependencies {
     compileOnly("org.spigotmc:spigot-api:1.8.8-R0.1-SNAPSHOT")
 
     // -- dream-platform --
-    implementation("cc.dreamcode.platform:core:1.10.0")
-    implementation("cc.dreamcode.platform:bukkit:1.10.0")
+    implementation("cc.dreamcode.platform:core:1.10.1")
+    implementation("cc.dreamcode.platform:bukkit:1.10.1")
 
     // -- dream-utilities --
-    implementation("cc.dreamcode:utilities:1.2.26")
-    implementation("cc.dreamcode:utilities-bukkit:1.2.26")
+    implementation("cc.dreamcode:utilities:1.3.0")
+    implementation("cc.dreamcode:utilities-bukkit:1.3.0")
 
     // -- injector --
     implementation("eu.okaeri:okaeri-injector:2.1.0")
