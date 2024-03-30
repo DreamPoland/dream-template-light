@@ -10,8 +10,8 @@ dependencies {
     compileOnly("org.spigotmc:spigot-api:1.8.8-R0.1-SNAPSHOT")
 
     // -- dream-platform --
-    implementation("cc.dreamcode.platform:core:1.10.1")
-    implementation("cc.dreamcode.platform:bukkit:1.10.1")
+    implementation("cc.dreamcode.platform:core:1.10.5")
+    implementation("cc.dreamcode.platform:bukkit:1.10.5")
 
     // -- dream-utilities --
     implementation("cc.dreamcode:utilities:1.3.0")
