@@ -2,9 +2,7 @@ package cc.dreamcode.template;
 
 import cc.dreamcode.platform.DreamVersion;
 import cc.dreamcode.platform.bukkit.DreamBukkitPlatform;
-import cc.dreamcode.platform.bukkit.component.ListenerResolver;
-import cc.dreamcode.platform.bukkit.component.RunnableResolver;
-import cc.dreamcode.platform.component.ComponentManager;
+import cc.dreamcode.platform.component.ComponentService;
 import lombok.Getter;
 import lombok.NonNull;
 
@@ -13,14 +11,13 @@ public final class TemplatePlugin extends DreamBukkitPlatform {
     @Getter private static TemplatePlugin templatePlugin;
 
     @Override
-    public void load(@NonNull ComponentManager componentManager) {
+    public void load(@NonNull ComponentService componentService) {
         templatePlugin = this;
     }
 
     @Override
-    public void enable(@NonNull ComponentManager componentManager) {
-        componentManager.registerResolver(ListenerResolver.class);
-        componentManager.registerResolver(RunnableResolver.class);
+    public void enable(@NonNull ComponentService componentService) {
+
     }
 
     @Override
