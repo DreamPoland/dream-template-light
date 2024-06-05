@@ -8,11 +8,11 @@ import lombok.NonNull;
 
 public final class TemplatePlugin extends DreamBukkitPlatform {
 
-    @Getter private static TemplatePlugin templatePlugin;
+    @Getter private static TemplatePlugin instance;
 
     @Override
     public void load(@NonNull ComponentService componentService) {
-        templatePlugin = this;
+        instance = this;
     }
 
     @Override
