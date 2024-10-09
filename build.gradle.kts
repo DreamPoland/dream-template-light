@@ -1,6 +1,11 @@
 plugins {
     `java-library`
+    id("idea")
     id("io.github.goooler.shadow") version "8.1.8"
+}
+
+idea {
+    project.jdkName = "23"
 }
 
 allprojects {
